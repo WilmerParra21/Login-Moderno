@@ -1,0 +1,84 @@
+body{
+	background-image: url('../img/23a3e1fcb97309e4e7bfaa0b39bfed33.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	color: white;
+	margin-bottom: 2rem;
+	margin-top: -1rem;
+	text-align: center;
+	font-style: italic;
+	font-size: 2rem;
+}
+
+.Contenedor{
+  width: 50%;
+  height: 80%;
+  top: 50%;
+  left: 30%;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 2rem 3rem;
+  background-color: rgba(1, 1, 1, .6);
+  border: 1px solid blue;
+  border-radius: 1rem;
+  margin-left: 2rem;
+}
+
+form{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 1.5rem;
+}
+
+#terminos{
+	margin-top: 1rem;
+	text-align: left;
+	display: flex;
+	color: white;
+}
+
+#terminos p{
+	margin-top: -1px;
+	margin-left: 1rem;
+}
+
+input:not([type="submit"]), select{
+	
+	background-color: rgba(1, 1, 1, .5);
+	border: 2px solid gold;
+	padding: 0.5rem;
+	border-radius: 20px;
+	color: white;
+    outline: none;
+}
+
+input:not([type="submit"]):hover, select:hover{
+	padding-left: 1rem;
+}
+
+select option{
+	background-color: black;
+}
+
+.boton{
+	margin: 2rem;
+	padding: 0.5rem 1.8rem;
+	font-family: 'Lucida sans', sans-serif;
+	font-size: 1.1rem;
+	text-align: center;
+	background-color: royalblue;
+	border: none;
+	border-radius: 20px;
+}
+
+.boton:hover{
+	cursor: pointer;
+	transition: background-color .4s ease-in-out;
+	background-color: blue;
+	color: white;
+}
